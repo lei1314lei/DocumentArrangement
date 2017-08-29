@@ -1,0 +1,76 @@
+ ReflectionClass::__construct — 构造一个 ReflectionClass 类
+
+
+ ReflectionClass::export — 导出一个类
+
+ ReflectionClass::getFileName — 获取定义类的文件名
+ ReflectionClass::getModifiers — 获取修饰符
+ ReflectionClass::getNamespaceName — 获取命名空间的名称
+ReflectionClass::getName — 获取类名
+ ReflectionClass::getShortName — 获取短名
+
+ ReflectionClass::getParentClass — 获取父类
+
+ ReflectionClass::getExtension — 根据已定义的类获取所在扩展的 ReflectionExtension 对象
+ ReflectionClass::getExtensionName — 获取定义的类所在的扩展的名称
+
+ ReflectionClass::getInterfaces — 获取接口
+ ReflectionClass::getInterfaceNames — 获取接口（interface）名称
+
+ ReflectionClass::getTraitAliases — 返回 trait 别名的一个数组
+ ReflectionClass::getTraitNames — 返回这个类所使用 traits 的名称的数组
+ ReflectionClass::getTraits — 返回这个类所使用的 traits 数组
+
+ReflectionClass::getConstructor — 获取类的构造函数
+
+ ReflectionClass::getStaticProperties — 获取静态（static）属性
+ ReflectionClass::getStaticPropertyValue — 获取静态（static）属性的值
+
+ ReflectionClass::getDefaultProperties — 获取默认属性
+ ReflectionClass::getProperty — 获取类的一个属性的 ReflectionProperty
+ ReflectionClass::getProperties — 获取一组属性
+
+ ReflectionClass::getMethod — 获取一个类方法的 ReflectionMethod。
+ ReflectionClass::getMethods — 获取方法的数组
+
+
+
+
+
+
+ ReflectionClass::getConstant — 获取定义过的一个常量
+ ReflectionClass::getConstants — 获取一组常量
+
+
+
+ ReflectionClass::getDocComment — 获取文档注释
+
+ ReflectionClass::getStartLine — 获取起始行号
+ ReflectionClass::getEndLine — 获取最后一行的行数
+
+
+
+ ReflectionClass::hasConstant — 检查常量是否已经定义
+ ReflectionClass::hasMethod — 检查方法是否已定义
+ ReflectionClass::hasProperty — 检查属性是否已定义
+ ReflectionClass::implementsInterface — 接口的实现
+ ReflectionClass::inNamespace — 检查是否位于命名空间中
+ ReflectionClass::isAbstract — 检查类是否是抽象类（abstract）
+ ReflectionClass::isAnonymous — Checks if class is anonymous
+ ReflectionClass::isCloneable — 返回了一个类是否可复制
+ ReflectionClass::isFinal — 检查类是否声明为 final
+ ReflectionClass::isInstance — 检查类的实例
+ ReflectionClass::isInstantiable — 检查类是否可实例化
+ ReflectionClass::isInterface — 检查类是否是一个接口（interface）
+ ReflectionClass::isInternal — 检查类是否由扩展或核心在内部定义
+ ReflectionClass::isIterateable — 检查是否可迭代（iterateable）
+ ReflectionClass::isSubclassOf — 检查是否为一个子类
+ ReflectionClass::isTrait — 返回了是否为一个 trait
+ ReflectionClass::isUserDefined — 检查是否由用户定义的
+
+ ReflectionClass::newInstance — 从指定的参数创建一个新的类实例
+ ReflectionClass::newInstanceArgs — 从给出的参数创建一个新的类实例。
+ ReflectionClass::newInstanceWithoutConstructor — 创建一个新的类实例而不调用它的构造函数
+
+ ReflectionClass::setStaticPropertyValue — 设置静态属性的值
+ ReflectionClass::__toString — 返回 ReflectionClass 对象字符串的表示形式。

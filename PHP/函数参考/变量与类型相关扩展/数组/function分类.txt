@@ -86,10 +86,12 @@ array_replace_recursive — 使用传递的数组递归替换第一个数组的�
 
 
 title：数组---入栈出栈
-array_pop — 弹出数组最后一个单元（出栈）
 array_push — 将一个或多个单元压入数组的末尾（入栈）
-array_shift — 将数组开头的单元移出数组
+array_pop — 弹出数组最后一个单元（出栈）
+
 array_unshift — 在数组开头插入一个或多个单元
+array_shift — 将数组开头的单元移出数组
+
 
 
 
