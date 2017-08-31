@@ -3,6 +3,9 @@
 
  ReflectionClass::export — 导出一个类
 
+ ReflectionClass::getExtension — 根据已定义的类获取所在扩展的 ReflectionExtension 对象
+ ReflectionClass::getExtensionName — 获取定义的类所在的扩展的名称
+
  ReflectionClass::getFileName — 获取定义类的文件名
  ReflectionClass::getModifiers — 获取修饰符
  ReflectionClass::getNamespaceName — 获取命名空间的名称
@@ -10,9 +13,6 @@ ReflectionClass::getName — 获取类名
  ReflectionClass::getShortName — 获取短名
 
  ReflectionClass::getParentClass — 获取父类
-
- ReflectionClass::getExtension — 根据已定义的类获取所在扩展的 ReflectionExtension 对象
- ReflectionClass::getExtensionName — 获取定义的类所在的扩展的名称
 
  ReflectionClass::getInterfaces — 获取接口
  ReflectionClass::getInterfaceNames — 获取接口（interface）名称
